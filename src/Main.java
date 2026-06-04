@@ -74,7 +74,7 @@ public class Main {
             System.out.println(" В вагоне мест нет \n");
         }
 
-        System.out.println(" Задача № 7 ");
+        System.out.println(" Задача № 7  ");
         int one = 9665;
         int two = 8068;
         int three = 7885;
