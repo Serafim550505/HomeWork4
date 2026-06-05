@@ -42,7 +42,7 @@ public class Main {
         int age = 21;
         if (age < 2) {
             System.out.println(" Никуда не нужно\n");
-        } else if (age > 2 && age <= 6) {
+        } else if (age >= 2 && age <= 6) {
             System.out.println("нужно ходить в детский сад\n  ");
         } else if (age >= 7 && age <= 17) {
             System.out.println(" нужно ходить в школу \n");
@@ -77,13 +77,13 @@ public class Main {
         System.out.println(" Задача № 7  ");
         int one = 9665;
         int two = 8068;
-        int three = 7885;
+        int three = 9885;
         if (one >= two && one >= three) {
-            System.out.println(" Самое большое число \n " + one);
+            System.out.println(" Самое большое число " + one+ "\n");
         } else if (two >= one && two >= three) {
-            System.out.println(" Самое большое число \n " + two);
+            System.out.println(" Самое большое число  " + two+ "\n");
         } else {
-            System.out.println(" Самое большое число \n" + three);
+            System.out.println(" Самое большое число " + three+ "\n");
         }
 
 
