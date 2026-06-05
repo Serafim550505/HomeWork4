@@ -65,7 +65,7 @@ public class Main {
 
 
         System.out.println(" задача №6 ");
-        int capacity = 102;
+        int capacity = 60;
         if (capacity <= 60) {
             System.out.println(" В вагоне есть сидячие места \n");
         } else if (capacity > 60 && capacity <= 102) {
