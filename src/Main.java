@@ -12,8 +12,7 @@ public class Main {
         int year = 17;
         if (year >= 18) {
             System.out.println("человеку 18 или больше лет\n");
-        }
-        if (year < 18) {
+        } else {
             System.out.println("возраст совершеннолетия еще не наступил,нужно немного подождать \n ");
         }
 
@@ -40,8 +39,10 @@ public class Main {
 
         System.out.println("  Задача № 4 ");
 
-        int age = 20;
-        if (age > 2 && age <= 6) {
+        int age = 21;
+        if (age < 2) {
+            System.out.println(" Никуда не нужно\n");
+        } else if (age >= 2 && age <= 6) {
             System.out.println("нужно ходить в детский сад\n  ");
         } else if (age >= 7 && age <= 17) {
             System.out.println(" нужно ходить в школу \n");
@@ -54,6 +55,7 @@ public class Main {
 
         System.out.println(" Задача №5 ");
         if (age <= 5) {
+
             System.out.println(" Нельзя кататься на аттракционе  \n");
         } else if (age > 5 && age <= 14) {
             System.out.println(" можно  кататься только в сопровождении взрослого \n ");
@@ -63,25 +65,25 @@ public class Main {
 
 
         System.out.println(" задача №6 ");
-        int Capacity = 100;
-        if (Capacity < 60) {
+        int capacity = 60;
+        if (capacity <= 60) {
             System.out.println(" В вагоне есть сидячие места \n");
-        } else if (Capacity > 102) {
-            System.out.println(" В вагоне мест нет \n");
-        } else {
+        } else if (capacity > 60 && capacity <= 102) {
             System.out.println(" В вагоне есть стоячие места \n");
+        } else {
+            System.out.println(" В вагоне мест нет \n");
         }
 
-        System.out.println(" Задача № 7 ");
+        System.out.println(" Задача № 7  ");
         int one = 9665;
         int two = 8068;
-        int three = 7885;
+        int three = 9885;
         if (one >= two && one >= three) {
-            System.out.println(" Самое большое число \n " + one);
+            System.out.println(" Самое большое число " + one+ "\n");
         } else if (two >= one && two >= three) {
-            System.out.println(" Самое большое число \n " + two);
+            System.out.println(" Самое большое число  " + two+ "\n");
         } else {
-            System.out.println(" Самое большое число \n" + three);
+            System.out.println(" Самое большое число " + three+ "\n");
         }
 
 
